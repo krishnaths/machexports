@@ -2,6 +2,8 @@
 function changeLanguage(language) {
     if (language === 'de') {
         window.location.href = 'index-de.html';
+    } else if (language === 'hi') {
+        window.location.href = 'index-hi.html';
     } else {
         window.location.href = 'index.html';
     }
