@@ -48,6 +48,29 @@ body.modern-bg {
     color: #1e90ff;
     border-bottom: 2px solid #1e90ff;
 }
+.language-selector {
+    margin-left: 20px;
+}
+.language-selector select {
+    background: #fff;
+    border: 2px solid #e3eaf2;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #222;
+    cursor: pointer;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.language-selector select:hover {
+    border-color: #1e90ff;
+    box-shadow: 0 2px 8px rgba(30,144,255,0.1);
+}
+.language-selector select:focus {
+    outline: none;
+    border-color: #1e90ff;
+    box-shadow: 0 2px 8px rgba(30,144,255,0.15);
+}
 .modern-main {
     max-width: 1200px;
     margin: 0 auto;
@@ -210,6 +233,13 @@ body.modern-bg {
     }
     .modern-nav {
         gap: 18px;
+    }
+    .language-selector {
+        margin-left: 10px;
+    }
+    .language-selector select {
+        padding: 6px 8px;
+        font-size: 0.8rem;
     }
     .modern-main {
         padding: 0 4px;
