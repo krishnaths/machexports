@@ -4,6 +4,8 @@ function changeLanguage(language) {
         window.location.href = 'index-de.html';
     } else if (language === 'hi') {
         window.location.href = 'index-hi.html';
+    } else if (language === 'ta') {
+        window.location.href = 'index-ta.html';
     } else {
         window.location.href = 'index.html';
     }
